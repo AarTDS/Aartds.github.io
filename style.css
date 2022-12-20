@@ -40,6 +40,24 @@ li {
     padding: 0 10px 0 10px;
 }
 
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 80px;
+    width: 700px;
+    z-index: 2;
+}
+
+header .backdrop {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(36, 5, 36);
+    border-bottom-left-radius: 50px;
+    filter: opacity(.75);
+    backdrop-filter: blur(20px);
+}
+
 header a {
     background-image: linear-gradient(10deg, gray, white, gray);
     -webkit-text-fill-color: transparent;
@@ -58,10 +76,10 @@ a.s {
 }
 
 header ul {
-    position: fixed;
-    right: 10px;
+    position: absolute;
+    right: 0px;
     top: 10px;
-    z-index: 2;
+    text-align: right;
 }
 
 .homepage, .content {
@@ -99,6 +117,7 @@ a .content {
 }
 
 p {
+    text-align: center;
     background-color: rgb(36, 5, 36);
     border-radius: 10px;
     padding: 10%;
