@@ -163,14 +163,13 @@ p {
     -webkit-text-stroke-color: white;
     animation-name: flicker;
     animation-iteration-count: infinite;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 @keyframes flicker {
-    0% {text-shadow: 0 0 30px orange;}
-    25% {text-shadow: -10px -10px 30px cyan;}
+    0% {text-shadow: -10px -10px 30px cyan;}
     50% {text-shadow: 10px 10px 30px orange;}
-    100% {text-shadow: 0 0 30px cyan;}
+    100% {text-shadow: -10px -10px 30px cyan;}
 }
 
 footer ul {
