@@ -219,6 +219,24 @@ h1 {
     100% {text-shadow: -10px -10px 30px cyan;}
 }
 
+.shop p {
+    width: 250px;
+    height: 250px;
+}
+
+.shop img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop h2 {
+    text-align: center;
+    color: white;
+}
+
 footer ul {
     position: fixed;
     bottom: 10px;
